@@ -1,0 +1,619 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #e2e2e2;
+}
+
+.navbar {
+  padding: 0%;
+}
+
+.navbar .container-fluid {
+  background-color: white;
+  border: white 2px solid;
+}
+
+.navbar .container-fluid .navbar-logo {
+  width: 10%;
+  margin-left: 80%;
+}
+
+.navbar .container-fluid #navbarNavDropdown {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .container-fluid #navbarNavDropdown .profile-picture {
+  width: 5%;
+  margin-left: 40%;
+  margin-right: 15px;
+}
+
+.navbar .container-fluid .nav-item {
+  margin-right: 25px;
+}
+
+main .legacy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .legacy .legacy-shape {
+  width: 50%;
+}
+
+main .legacy .legacy-shape .legacyscore-shape {
+  width: 90%;
+  height: 70%;
+  margin-top: -25px;
+  margin-left: -16%;
+}
+
+main .legacy .legacy-shape .legacy-logo {
+  width: 10%;
+  position: absolute;
+  top: 22%;
+  left: 8%;
+}
+
+main .legacy .legacy-shape h2 {
+  color: white;
+  position: absolute;
+  top: 27%;
+  left: 8%;
+  font-size: 70px;
+}
+
+main .legacy .legacy-shape p {
+  color: white;
+  position: absolute;
+  top: 47%;
+  left: 8%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.legacy-form {
+  width: 50%;
+}
+
+.legacy-form input::-webkit-input-placeholder {
+  margin: 5%;
+}
+
+.legacy-form input:-ms-input-placeholder {
+  margin: 5%;
+}
+
+.legacy-form input::-ms-input-placeholder {
+  margin: 5%;
+}
+
+.legacy-form input::placeholder {
+  margin: 5%;
+}
+
+.legacy-form .Step1 {
+  color: #d30058;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 10px;
+  margin-top: 35px;
+}
+
+.legacy-form .Step1 span {
+  color: #003f63;
+  font-weight: bold;
+}
+
+.legacy-form .first-step {
+  padding: 20px;
+}
+
+.legacy-form p {
+  color: #003f63;
+}
+
+.legacy-form label {
+  color: #003f63;
+  font-weight: 600;
+}
+
+.legacy-form .sign-up {
+  margin: 10px;
+  background-color: #c4c4c4;
+  border-radius: 10px;
+  width: 60%;
+  padding: 25px;
+}
+
+.legacy-form .sign-up h3 {
+  color: #003f63;
+}
+
+.legacy-form .sign-up h5 {
+  color: #003f63;
+  font-weight: 800;
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+.legacy-form .sign-up p {
+  font-weight: 600;
+}
+
+.legacy-form input[type=text], .legacy-form select {
+  border-radius: 10px;
+  border: 1px solid #d30058;
+  width: 100%;
+  height: 45px;
+}
+
+.legacy-form input[type=radio] {
+  border: 1px solid #d30058;
+  padding: 0.5em;
+  -webkit-appearance: none;
+  border-radius: 5px;
+  color: #003f63;
+  background-color: white;
+  margin-top: 5px;
+}
+
+.legacy-form input[type=radio]:checked {
+  background: url(../images/checkedd.png) no-repeat center center;
+  background-size: 15px 15px;
+}
+
+.legacy-form .Male-Female {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.legacy-form .Male-Female .Male {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.legacy-form .Male-Female .Male .label-male {
+  color: #003f63;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+.legacy-form .Male-Female .Female {
+  margin-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.legacy-form .Male-Female .Female .label-female {
+  color: #003f63;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+.legacy-form input[type=checkbox] {
+  border: 1px solid #d30058;
+  padding: 0.5em;
+  -webkit-appearance: none;
+  border-radius: 5px;
+  color: #003f63;
+  background-color: white;
+}
+
+.legacy-form input[type=checkbox]:checked {
+  background: url(../images/checkedd.png) no-repeat center center;
+  background-size: 15px 15px;
+}
+
+.legacy-form ::-webkit-input-placeholder {
+  padding: 10px;
+  color: grey;
+}
+
+.legacy-form :-ms-input-placeholder {
+  padding: 10px;
+  color: grey;
+}
+
+.legacy-form ::-ms-input-placeholder {
+  padding: 10px;
+  color: grey;
+}
+
+.legacy-form ::placeholder {
+  padding: 10px;
+  color: grey;
+}
+
+.legacy-form .Contact-form {
+  margin: 10px;
+  margin-top: 5%;
+  background-color: #c4c4c4;
+  border-radius: 10px;
+  width: 60%;
+  padding: 25px;
+}
+
+.legacy-form .Contact-form h3 {
+  color: #003f63;
+}
+
+.legacy-form .Contact-form input[type=tel] {
+  border-radius: 10px;
+  border: 1px solid #d30058;
+  width: 100%;
+  height: 45px;
+}
+
+.legacy-form .Contact-form ::-webkit-input-placeholder {
+  padding: 10px;
+  color: grey;
+}
+
+.legacy-form .Contact-form :-ms-input-placeholder {
+  padding: 10px;
+  color: grey;
+}
+
+.legacy-form .Contact-form ::-ms-input-placeholder {
+  padding: 10px;
+  color: grey;
+}
+
+.legacy-form .Contact-form ::placeholder {
+  padding: 10px;
+  color: grey;
+}
+
+.legacy-form .Contact-form .checkboxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.legacy-form .Contact-form .checkboxes .Mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.legacy-form .Contact-form .checkboxes .Mobile .label-mobile {
+  color: #003f63;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+.legacy-form .Contact-form .checkboxes .Authenticate {
+  margin-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.legacy-form .Contact-form .checkboxes .Authenticate .label-auth {
+  color: #003f63;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+.legacy-form button {
+  background-color: #d30058;
+  color: white;
+  width: 20%;
+  height: 4%;
+  border-radius: 10px;
+  margin-top: 10%;
+  margin-left: 50%;
+  border: 2px #e2e2e2 solid;
+}
+
+.Footer {
+  background-color: #003f63;
+  width: 100%;
+  height: 150px;
+  margin-top: 70px;
+  color: white;
+}
+
+.Footer .upper-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Footer .upper-text .footer-logo {
+  width: 10%;
+  width: 10%;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+.Footer .upper-text .social-networks {
+  margin-top: 3%;
+  margin-right: 4%;
+}
+
+.Footer .upper-text .social-networks i {
+  margin: 10px;
+}
+
+.Footer .down-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+}
+
+.Footer .down-text #privacy {
+  margin-left: 10%;
+}
+
+.Footer .down-text #terms {
+  margin-left: 2%;
+}
+
+.Footer .down-text #copyright {
+  margin-left: 60%;
+}
+
+@media only screen and (max-width: 320px) {
+  .Header {
+    background-color: #d30058;
+  }
+  .Header .container-fluid {
+    background-color: #d30058;
+  }
+  .Header .navbar {
+    display: inline;
+  }
+  .Header .navbar-logo {
+    display: none;
+  }
+  .Header .navbar-nav {
+    display: none;
+  }
+  .Header .navbar-toggler {
+    margin-left: 80%;
+    border: #d30058 solid 1px;
+  }
+  .Header .navbar-toggler span {
+    color: white;
+  }
+  .Main .legacy-logo {
+    margin-top: -110px;
+    width: 100px;
+  }
+  .Main .legacy-shape {
+    display: none;
+  }
+  .Main .Step1 {
+    width: 25px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .Header {
+    background-color: #d30058;
+  }
+  .Header .container-fluid {
+    background-color: #d30058;
+  }
+  .Header .navbar {
+    display: inline;
+  }
+  .Header .navbar-logo {
+    display: none;
+  }
+  .Header .navbar-nav {
+    display: none;
+  }
+  .Header .navbar-toggler {
+    margin-left: 80%;
+    border: #d30058 solid 1px;
+  }
+  .Header .navbar-toggler span {
+    color: white;
+  }
+  .Main .legacy p {
+    font-size: 10px;
+  }
+  .Main .legacy h5 {
+    font-size: 15px;
+  }
+  .Main .legacy label {
+    font-size: 12px;
+  }
+  .Main .legacy .legacy-logo {
+    margin-top: -110px;
+    width: 100px;
+  }
+  .Main .legacy .Step1 {
+    font-size: 20px;
+  }
+  .Main .legacy .legacy-shape {
+    display: none;
+  }
+  .Main .legacy .legacy-form {
+    width: 100%;
+  }
+  .Main .legacy .sign-up {
+    width: 95%;
+  }
+  .Main .legacy .Contact-form {
+    width: 95%;
+  }
+  .Main .legacy input[type=radio] {
+    border: 1px solid #d30058;
+    padding: 0.5em;
+    -webkit-appearance: none;
+    border-radius: 10px;
+    color: #003f63;
+    background-color: white;
+    margin-top: 5px;
+  }
+  .Main .legacy input[type=radio]:checked {
+    background: url(../images/circle.png) no-repeat center center;
+    background-size: 10px 10px;
+  }
+  .Main .legacy input[type=checkbox] {
+    border: 1px solid #d30058;
+    padding: 0.5em;
+    -webkit-appearance: none;
+    border-radius: 10px;
+    color: #003f63;
+    background-color: white;
+  }
+  .Main .legacy input[type=checkbox]:checked {
+    background: url(../images/circle.png) no-repeat center center;
+    background-size: 10px 10px;
+  }
+  .Main .legacy button {
+    width: 50%;
+    height: 3%;
+    margin-left: 80px;
+  }
+  .Footer .upper-text .footer-logo {
+    width: 40%;
+    height: 30%;
+    margin-top: 20%;
+  }
+  .Footer .upper-text .social-networks {
+    margin-top: 17%;
+  }
+  .Footer .down-text {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1569px) {
+  .Header {
+    background-color: #d30058;
+  }
+  .Header .container-fluid {
+    background-color: #d30058;
+  }
+  .Header .navbar {
+    display: inline;
+  }
+  .Header .navbar-logo {
+    display: none;
+  }
+  .Header .navbar-nav {
+    display: none;
+  }
+  .Header .navbar-toggler {
+    margin-left: 80%;
+    border: #d30058 solid 1px;
+  }
+  .Header .navbar-toggler span {
+    color: white;
+  }
+  .Main .legacy p {
+    font-size: 10px;
+  }
+  .Main .legacy h5 {
+    font-size: 15px;
+  }
+  .Main .legacy label {
+    font-size: 12px;
+  }
+  .Main .legacy .legacy-logo {
+    margin-top: -110px;
+    width: 100px;
+  }
+  .Main .legacy .Step1 {
+    font-size: 20px;
+  }
+  .Main .legacy .legacy-shape {
+    display: none;
+  }
+  .Main .legacy .legacy-form {
+    width: 100%;
+  }
+  .Main .legacy .sign-up {
+    width: 95%;
+  }
+  .Main .legacy .Contact-form {
+    width: 95%;
+  }
+  .Main .legacy input[type=radio] {
+    border: 1px solid #d30058;
+    padding: 0.5em;
+    -webkit-appearance: none;
+    border-radius: 10px;
+    color: #003f63;
+    background-color: white;
+    margin-top: 5px;
+  }
+  .Main .legacy input[type=radio]:checked {
+    background: url(../images/circle.png) no-repeat center center;
+    background-size: 10px 10px;
+  }
+  .Main .legacy input[type=checkbox] {
+    border: 1px solid #d30058;
+    padding: 0.5em;
+    -webkit-appearance: none;
+    border-radius: 10px;
+    color: #003f63;
+    background-color: white;
+  }
+  .Main .legacy input[type=checkbox]:checked {
+    background: url(../images/circle.png) no-repeat center center;
+    background-size: 10px 10px;
+  }
+  .Main .legacy button {
+    width: 50%;
+    height: 3%;
+    margin-left: 80px;
+  }
+  .Footer .upper-text .footer-logo {
+    width: 40%;
+    height: 30%;
+    margin-top: 20%;
+  }
+  .Footer .upper-text .social-networks {
+    margin-top: 17%;
+  }
+  .Footer .down-text {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>LegacyScore</title>
+</head>
+<body>
+    <header class="Header">
+      <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><img class="navbar-logo" src="./images/color-shape-logo.png"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">LegacyScore</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Improve score</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Help</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                    <img class="profile-picture" src="./images/profile-picture.png">
+                    Gareth
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Logout</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <main class="Main">
+      <div class="legacy">
+        <div class="legacy-shape">
+          <img class="legacyscore-shape" src="./images/LegacyScore-Shape-01.png">
+          <img class="legacy-logo" src="./images/white-text-shape-logo.png">
+          <h2>Legacy should<br />last FOREVER!</h2>
+          <p>
+            LegacyScore provides you with unique insight<br/>
+            to your financial future. Its a short process<br />
+            to register your score & find out what you<br />
+            never before knew about your future.
+          </p>
+        </div>
+        <div class="legacy-form">
+          <p class="Step1">Step 1: <span>Validating your indentity</span></p>
+          <p class="first-step">
+            The first step in recieving your LegacyScore is insuring you are who you<br/>
+            say you are. In order to do this we require your legal name, date of birth<br/>
+            and current address<br/><br/>
+            With your permission we will carry out a credit check to save you the time<br/>
+            involved in adding manually any credit you may have.
+          </p>
+          <form class="sign-up">
+            <h3>The Basics</h3>
+            <br>
+            <h5>We need your full legal name to confirm your indentity.<br/></h5>
+            <p>Legal name:(your legal name on your passport/I.D card)</p>
+            <input type="text" id="fname" name="firstname" placeholder="Enter name">
+            <br>
+            <br>
+            <h5>Date of birth(D.O.B):</h5>
+            <p>Please input your date of birth here in day, month & year format.</p>
+            <input type="text" id="birthday" name="birthday" placeholder="DD/MM/YYYY">
+            <h5>Gender as per passport?</h5>
+            <div class="Male-Female">
+              <div class="Male">
+                <input type="radio" id="radio-male" name="sex" value="male">
+                <label for="radio-male" class="label-male">Male</label>
+              </div>
+              <div class="Female">
+                <input type="radio" id="radio-female" name="sex" value="female">
+                <label for="radio-female" class="label-female">Female</label>
+              </div>
+            </div>    
+          </form>
+          <form class="Contact-form">
+            <h3>Contact information</h3>
+            <br>
+            <p>It is useful to add your mobile number at this stage.</p>
+            <p>
+              We use your mobile number to authenticate your account and to insure it<br>
+              remains secure throughtout the rest of the process. LegacyScore will carry<br>
+              out a credit check at the next step and your mobile will ensure your details<br>
+              remains secure.
+            </p>
+            <label for="phone">Phone no:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="+44"><br><br>
+            <div class="checkboxes">
+              <div class="Mobile">
+                <input type="checkbox" id="checkbox-mobile">
+                <label for="checkbox-mobile" class="label-mobile">Dont add mobile.</label>
+              </div>
+              <div class="Authenticate">
+                <input type="checkbox" id="checkbox-auth">
+                <label for="checkbox-auth" class="label-auth">Authenticate account via mobile.</label>
+              </div>
+            </div> 
+          </form>
+          <button>Next</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="Footer">
+        <div class="upper-text">
+          <img class="footer-logo" src="./images/white-text-shape-logo.png">
+          <div class="social-networks">
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-facebook"></i>
+          </div>   
+        </div>
+        <div class="down-text">
+          <p id="privacy">Privacy and Cookie Policy</p>
+          <p id="terms">Terms and Conditions</p>
+          <p id="copyright">©LegacyScore 2021</p>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>

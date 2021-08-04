@@ -273,45 +273,6 @@ main {
 }
 //==========================//
 //======[ RESPONSIVE ]======//
-@media only screen and (max-width:320px) {
-    .Header {
-        background-color: rgb(211, 0, 88);
-        .container-fluid {
-            background-color: rgb(211, 0, 88);
-        }
-        .navbar {
-            display: inline;
-        }
-        .navbar-logo {
-            display: none;
-        }
-        .navbar-nav {
-            display: none;
-        }
-        .navbar-toggler {
-            margin-left: 80%;
-            border: rgb(211, 0, 88) solid 1px;
-            span {
-                color: white;
-            }
-        }
-    }
-    .Main {
-        .legacy-logo {
-            margin-top: -110px;
-            width: 100px;
-        }
-        .legacy-shape {
-            display: none;
-        }
-        .Step1 {
-            width: 25px;
-        }
-    }
-}
-
-
-
 @media only screen and (max-width:1569px) {
     .Header {
         background-color: rgb(211, 0, 88);

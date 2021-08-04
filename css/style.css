@@ -394,41 +394,6 @@ main .legacy .legacy-shape p {
   margin-left: 60%;
 }
 
-@media only screen and (max-width: 320px) {
-  .Header {
-    background-color: #d30058;
-  }
-  .Header .container-fluid {
-    background-color: #d30058;
-  }
-  .Header .navbar {
-    display: inline;
-  }
-  .Header .navbar-logo {
-    display: none;
-  }
-  .Header .navbar-nav {
-    display: none;
-  }
-  .Header .navbar-toggler {
-    margin-left: 80%;
-    border: #d30058 solid 1px;
-  }
-  .Header .navbar-toggler span {
-    color: white;
-  }
-  .Main .legacy-logo {
-    margin-top: -110px;
-    width: 100px;
-  }
-  .Main .legacy-shape {
-    display: none;
-  }
-  .Main .Step1 {
-    width: 25px;
-  }
-}
-
 @media only screen and (max-width: 1569px) {
   .Header {
     background-color: #d30058;

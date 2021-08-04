@@ -310,107 +310,7 @@ main {
     }
 }
 
-@media only screen and (max-width:375px) {
-    .Header {
-        background-color: rgb(211, 0, 88);
-        .container-fluid {
-            background-color: rgb(211, 0, 88);
-        }
-        .navbar {
-            display: inline;
-        }
-        .navbar-logo {
-            display: none;
-        }
-        .navbar-nav {
-            display: none;
-        }
-        .navbar-toggler {
-            margin-left: 80%;
-            border: rgb(211, 0, 88) solid 1px;
-            span {
-                color: white;
-            }
-        }
-    }
-    .Main {
-        .legacy {
-             p {
-                 font-size: 10px;
-             }
-             h5 {
-                 font-size: 15px;
-             }
-             label {
-                 font-size: 12px;
-             }
-            .legacy-logo {
-                margin-top: -110px;
-                width: 100px;
-            }
-            .Step1 {
-                font-size: 20px;
-            }
-            .legacy-shape {
-              display: none;
-            }
-            .legacy-form {
-                width: 100%;
-            }
-            .sign-up {
-                width: 95%;
-            }
-            .Contact-form {
-                width: 95%;
-            }
-            input[type=radio] {
-                border: 1px solid rgb(211, 0, 88);
-                padding: 0.5em;
-                -webkit-appearance: none;
-                border-radius: 10px;
-                color: #003f63;
-                background-color: white;
-                margin-top: 5px;
-            }
-            input[type=radio]:checked {
-                background: url(../images/circle.png) no-repeat center center;
-                background-size: 10px 10px;
-            }
-            input[type=checkbox] {
-                border: 1px solid rgb(211, 0, 88);
-                padding: 0.5em;
-                -webkit-appearance: none;
-                border-radius: 10px;
-                color: #003f63;
-                background-color: white; 
-            }
-            input[type=checkbox]:checked {
-                background: url(../images/circle.png) no-repeat center center;
-                background-size: 10px 10px;
-            }
-            button {
-                width: 50%;
-                height: 3%;
-                margin-left: 80px;
-            }
-        }
-    }
-    .Footer {
-        .upper-text {
-            .footer-logo {
-                width: 40%;
-                height: 30%;
-                margin-top: 20%;
-            }
-            .social-networks {
-                margin-top: 17%;
-            }
-        }
-        .down-text {
-            display: none;
-        }
-    }
-}
+
 
 @media only screen and (max-width:1569px) {
     .Header {
@@ -444,17 +344,19 @@ main {
                  font-size: 15px;
              }
              label {
-                 font-size: 12px;
+                 font-size: 10px;
              }
             .legacy-logo {
                 margin-top: -110px;
                 width: 100px;
             }
             .Step1 {
-                font-size: 20px;
+                font-size: 15px;
+                margin-left: 10px;
+                width: 100%;
             }
             .legacy-shape {
-              display: none;
+                display: none;
             }
             .legacy-form {
                 width: 100%;
@@ -498,18 +400,51 @@ main {
         }
     }
     .Footer {
+        height: 50px;
+        margin-top: 70px;
         .upper-text {
+            position: absolute;
+            margin-top: -45px;
             .footer-logo {
-                width: 40%;
-                height: 30%;
-                margin-top: 20%;
+                width: 30%;
+                height: 18%;
+                margin-top: -396.5%;
             }
             .social-networks {
                 margin-top: 17%;
+                font-size: 11px;
             }
         }
         .down-text {
-            display: none;
+            #privacy {
+                display: none;
+            }
+            #terms {
+                display: none;
+            }
+            #copyright {
+                margin-left: 20px;
+                margin-top: 5%;
+                font-size: 11px;
+            }
         }
+        
     }
 }
+
+@media only screen and (max-width:1000px) {
+    .Footer {
+        .upper-text {
+            .footer-logo {
+                margin-top: -407%;
+            } 
+        }
+          
+    }
+    
+}
+
+
+
+
+
